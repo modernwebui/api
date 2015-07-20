@@ -19,3 +19,16 @@ Install all dependencies via npm
 npm install
 ```
 
+Create a configuration file, with a `REDIS_URL` environment variable
+
+**/.env**
+
+```shell
+export REDIS_URL=redis://......
+```
+
+Start the server
+```shell
+npm start
+```
+
