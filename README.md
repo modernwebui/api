@@ -9,3 +9,13 @@
 
 An API for the [ModernWebUI website](https://github.com/modernwebui/website), based off of [Banker](https://github.com/truenorth/banker)
 
+## Installation
+
+### Requirements
+* Node.js (`v0.12.2` or higher reccomended)
+
+Install all dependencies via npm
+```shell
+npm install
+```
+
