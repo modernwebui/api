@@ -1,7 +1,7 @@
 {
-  "name": "banker",
+  "name": "mwui-api",
   "version": "0.0.1",
-  "description": "A full-featured asset serving layer for single-page apps",
+  "description": "An API for the Modern Web UI website",
   "main": "./src/index.js",
   "engines": {
     "iojs": "2.1.x"
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/truenorth/banker.git"
+    "url": "git+https://github.com/modernwebui/api.git"
   },
   "keywords": [
     "iojs"
@@ -24,9 +24,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/truenorth/banker/issues"
+    "url": "https://github.com/modernwebui/api/issues"
   },
-  "homepage": "https://github.com/truenorth/banker#readme",
+  "homepage": "https://github.com/modernwebui/api#readme",
   "dependencies": {
     "babel": "^5.6.4",
     "chalk": "^1.0.0",
