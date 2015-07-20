@@ -23,7 +23,18 @@ router.get('/', (req, res) => {
   let indexkey =
     `${process.env.APP_NAME}:${(req.query['index_key'] || 'current')}`;
   tryGetVersion(indexkey).then(data => {
-    res.send(data);
+    console.log('data', data);
+    if (data) {
+      res.send(data);
+    } else {
+      res.send(`
+        <html>
+          <body>
+          <h2>No version found ${indexkey}</h2>
+          </body>
+        </html>
+      `);
+    }
   });
 });
 
